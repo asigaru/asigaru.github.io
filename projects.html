@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- MATERIAL DESIGN STUFF -->
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Projects</title>
+</head>
+
+<body>
+
+    <nav class='navbar navbar-expand-md navbar-light bg-white'>
+        <a href="index.html" class="navbar-brand">Pavel Arkharov</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="fas fa-bars"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class='navbar-nav ml-auto'>
+                <li class='nav-item'>
+                    <a href='index.html' class='nav-link'>Home</a>
+                </li>
+
+                <li class='nav-item dropdown'>
+                    <a class='nav-link dropdown-toggle' data-toggle='dropdown' href='#'>About Me</a>
+                    <div class='dropdown-menu' aria-labelledby="navbarDropdownOne">
+                        <a class='dropdown-item' href='about.html'>General information</a>
+                        <a class='dropdown-item' href='edu.html'>Education</a>
+                        <a class="dropdown-item" href='resume.html'>Resume</a>
+                        <a class='dropdown-item' href='skills.html'>Skills</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href='refs.html'>References</a>
+                    </div>
+                </li>
+                <li class='nav-item dropdown'>
+                    <a class='nav-link dropdown-toggle' id='navbarDropdownTwo' data-toggle='dropdown' href='#'
+                        role='button' aria-haspopup="true" aria-expanded='false'>Portfolio and Projects</a>
+                    <div class='dropdown-menu' aria-labelledby="navbarDropdownTwo">
+                        <a class='dropdown-item' href='gallery.html'>Photography</a>
+                        <a class='dropdown-item active' href='projects.html'>Video & Projects</a>
+                    </div>
+                </li>
+                <li class='nav-item'><a class='nav-link' href='contacts.html'>Contact Me</a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <ol class="col-12 breadcrumb bg-white">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="gallery.html">Photo gallery</a></li>
+                <li class="breadcrumb-item active">Projects</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card text-center my-2">
+                    <div class="card-header">
+                        UNETON48 2020
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Feature film 'Kiss Me'</h5>
+                        <p class="card-text">Directed and produced a movie in 48 hours.</p>
+                        <button type='button' data-toggle="modal" data-target="#modalOne" class="btn btn-primary">More
+                            info</button>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Helsinki 2020
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card text-center my-2">
+                    <div class="card-header">
+                        UNETON DOCS48
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Documentary movie 'Dear Prudence'</h5>
+                        <p class="card-text">Directed and produced a documentary in 48 hours. </p>
+                        <button type='button' class="btn btn-primary" data-toggle="modal" data-target="#modalTwo">More
+                            info</button>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Helsinki 2021
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card text-center my-2">
+                    <div class="card-header">
+                        YouTube talk show
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Russians in Finland YT talk show</h5>
+                        <p class="card-text">Directed and produced a pilot episode for the TochkaFI talk-show.</p>
+                        <button type="button" data-toggle="modal" data-target="#modalThree" class="btn btn-primary">More
+                            info</button>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Helsinki 2020
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalOne" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">'Kiss Me' feature film</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9" style='margin-bottom: 2rem;'>
+                        <iframe src="https://player.vimeo.com/video/423781396?color=cd2653&title=0&byline=0&portrait=0"
+                            style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+                            allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <hr>
+                    <p class="lead">First-time participation in UNETON</p>
+                    <hr>
+                    With a group of friends locked down in quarantine in our house we decided to enroll into UNETON48
+                    competition and make a movie within two days. Me acting as director on set and executive producer,
+                    this won't be possible without help from my friends and team-members.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalTwo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">'Dear Prudence' documentary</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9" style='margin-bottom: 2rem;'>
+                        <iframe src="https://player.vimeo.com/video/504115103?color=cd2653&title=0&byline=0&portrait=0"
+                            style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+                            allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <hr>
+                    <p class="lead">Second-time participation in UNETON competition</p>
+                    <hr>
+                    <p>This time whole movie was made by way smaller team, with me leading all stages of production,
+                        namely preparation filming and editing. </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalThree" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">TochkaFI talk show</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="lead">Pilot episode of the first Russian-speaking talk-show in Finland</p>
+                    <hr>
+                    <p>Together with a group of friends produced, directed and edited pilot episode of aforementioned
+                        video-project. Currently it is being examined for the sponsorship. Out on the YouTube soon.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <footer class='page-footer bg-dark'>
+        <div class="bg-white">
+            <div class="container">
+                <div class="row py-4 d-flex align-items-center">
+                    <div class="col-md-12 text-center">
+                        <a href=""><i class='fab fa-2x fa-facebook text-dark mr-1'></i></a>
+                        <a href=""><i class='fab fa-2x fa-linkedin text-dark mr-1'></i></a>
+                        <a href=""><i class='fab fa-2x fa-instagram text-dark mr-1'></i></a>
+                        <a href=""><i class='fab fa-2x fa-github text-dark mr-1'></i></a>
+                    </div>
+                    <p class="text-center my-2">All rights reserved. Pavel Arkharov (C) 2021</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"></script>
+
+    <script src="https://player.vimeo.com/api/player.js"></script>
+
+
+</body>
+
+</html>

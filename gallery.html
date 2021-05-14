@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- MATERIAL DESIGN STUFF -->
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Photo gallery</title>
+</head>
+
+<body>
+
+    <nav class='navbar navbar-expand-md navbar-light bg-white'>
+        <a href="index.html" class="navbar-brand">Pavel Arkharov</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="fas fa-bars"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class='navbar-nav ml-auto'>
+                <li class='nav-item'>
+                    <a href='index.html' class='nav-link'>Home</a>
+                </li>
+
+                <li class='nav-item dropdown'>
+                    <a class='nav-link dropdown-toggle' data-toggle='dropdown' href='#'>About Me</a>
+                    <div class='dropdown-menu' aria-labelledby="navbarDropdownOne">
+                        <a class='dropdown-item' href='about.html'>General information</a>
+                        <a class='dropdown-item' href='edu.html'>Education</a>
+                        <a class="dropdown-item" href='resume.html'>Resume</a>
+                        <a class='dropdown-item' href='skills.html'>Skills</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href='refs.html'>References</a>
+                    </div>
+                </li>
+                <li class='nav-item dropdown'>
+                    <a class='nav-link dropdown-toggle' id='navbarDropdownTwo' data-toggle='dropdown' href='#'
+                        role='button' aria-haspopup="true" aria-expanded='false'>Portfolio and Projects</a>
+                    <div class='dropdown-menu' aria-labelledby="navbarDropdownTwo">
+                        <a class='dropdown-item active' href='gallery.html'>Photography</a>
+                        <a class='dropdown-item' href='projects.html'>Video & Projects</a>
+                    </div>
+                </li>
+                <li class='nav-item'><a class='nav-link' href='contacts.html'>Contact Me</a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <ol class="col-12 breadcrumb bg-white">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active">Photo gallery</li>
+            </ol>
+        </div>
+    </div>
+    <!-- CAROUSEL WITH IMAGES  -->
+
+    <div class="container bg-white">
+        <div id="carouselExampleIndicators" class="gallery-carousel carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+            </ol>
+            <div class="gallery-carousel-inner carousel-inner mb-4">
+                <div class="gallery-carousel-item carousel-item active">
+                    <img class="d-block w-100" src="images/1.png" alt="First slide">
+                    <div class="gallery-carousel-caption carousel-caption d-none d-md-block bg-dark mb-4">
+                        <h5>Please do not wash the horses</h5>
+                        <p>Sundsvall, Sweden</p>
+                    </div>
+                </div>
+                <div class="gallery-carousel-item carousel-item">
+                    <img class="d-block w-100" src="images/2.png" alt="Second slide">
+                    <div class="gallery-carousel-caption carousel-caption d-none d-md-block bg-dark mb-4">
+                        <h5>Pink-cheeked bride</h5>
+                        <p>Moscow, Russia</p>
+                    </div>
+                </div>
+                <div class="gallery-carousel-item carousel-item">
+                    <img class="d-block w-100" src="images/3.png" alt="Third slide">
+                    <div class="gallery-carousel-caption carousel-caption d-none d-md-block bg-dark mb-4">
+                        <h5>Dancing outside the ads</h5>
+                        <p>Moscow, Russia</p>
+                    </div>
+                </div>
+                <div class="carousel-item gallery-carousel-item">
+                    <img class="d-block w-100" src="images/4.png" alt="Third slide">
+                    <div class="carousel-caption gallery-carousel-caption d-none d-md-block bg-dark mb-4">
+                        <h5>Urban saplings</h5>
+                        <p>Sundsvall, Sweden</p>
+                    </div>
+                </div>
+                <div class="carousel-item gallery-carousel-item">
+                    <img class="d-block w-100" src="images/5.png" alt="Third slide">
+                    <div class="carousel-caption gallery-carousel-caption d-none d-md-block bg-dark mb-4">
+                        <h5>Eye in the sky</h5>
+                        <p>76.79502461570561, 2.76918472288696 </p>
+                    </div>
+                </div>
+                <div class="carousel-item gallery-carousel-item">
+                    <img class="d-block w-100" src="images/6.png" alt="Third slide">
+                    <div class="carousel-caption gallery-carousel-caption d-none d-md-block bg-dark mb-4">
+                        <h5>Bird watchers</h5>
+                        <p>Piramiden, Svalbard</p>
+                    </div>
+                </div>
+                <div class="carousel-item gallery-carousel-item">
+                    <img class="d-block w-100" src="images/7.png" alt="Third slide">
+                    <div class="carousel-caption gallery-carousel-caption d-none d-md-block bg-dark mb-4">
+                        <h5>Face selling</h5>
+                        <p>Moscow, Russia</p>
+                    </div>
+                </div>
+                <div class="carousel-item gallery-carousel-item">
+                    <img class="d-block w-100" src="images/8.png" alt="Third slide">
+                    <div class="carousel-caption gallery-carousel-caption d-none d-md-block bg-dark mb-4">
+                        <h5>Portrait of an artist</h5>
+                        <p>Moscow, Russia</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
+        </div>
+        <p class="lead text-center">Funny video with Boris the Ram</p>
+        <div class="embed-responsive embed-responsive-16by9" style='margin-bottom: 10rem;'>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/k6sGP7ERSXo"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <!-- FOOTER -->
+    <footer class='page-footer bg-dark'>
+        <div class="bg-white">
+            <div class="container">
+                <div class="row py-4 d-flex align-items-center">
+                    <div class="col-md-12 text-center">
+                        <a href=""><i class='fab fa-2x fa-facebook text-dark mr-1'></i></a>
+                        <a href=""><i class='fab fa-2x fa-linkedin text-dark mr-1'></i></a>
+                        <a href=""><i class='fab fa-2x fa-instagram text-dark mr-1'></i></a>
+                        <a href=""><i class='fab fa-2x fa-github text-dark mr-1'></i></a>
+                    </div>
+                    <p class="text-center my-2">All rights reserved. Pavel Arkharov (C) 2021</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"></script>
+
+
+
+
+</body>
+
+</html>
